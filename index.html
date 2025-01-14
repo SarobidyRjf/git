@@ -174,17 +174,9 @@
     animation: typing 3s steps(70) 0.3s 2 normal both;
   }
 
-  @media (max-width:300px) {
-    .pied {
-     
-      box-sizing: border-box;
-    }
-
-
-
-
-  }
-
+ #pied {
+  width: 100vw;
+ }
   footer {
     display:none;
   }
@@ -248,7 +240,7 @@
 
 
   <!-- Bottom Navbar for Mobile -->
-  <div class="bottom-navbar pied fixed bg-gradient-to-l py-3 from-sky-700 to-blue-900 shadow-2xl ">
+  <div id="pied" class="bottom-navbar  fixed bg-gradient-to-l py-3 from-sky-700 to-blue-900 shadow-2xl ">
     <a href="#" class="text-xl hover:bg-cyan-500 "><i class="fas fa-home"></i></a>
     <a href="#" class="text-xl hover:bg-cyan-500"><i class="fas fa-cogs"></i></a>
     <a href="#" class="text-xl hover:bg-cyan-500"><i class="fas fa-info-circle"></i></a>
