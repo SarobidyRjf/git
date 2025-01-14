@@ -7,7 +7,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <style>
 
-  body {
+  *{
     box-sizing: border-box;
   }
     /* Animation for underline on hover */
@@ -174,6 +174,17 @@
     animation: typing 3s steps(70) 0.3s 2 normal both;
   }
 
+  @media (max-width:300px) {
+    .pied {
+     
+      box-sizing: border-box;
+    }
+
+
+
+
+  }
+
   footer {
     display:none;
   }
@@ -237,7 +248,7 @@
 
 
   <!-- Bottom Navbar for Mobile -->
-  <div class="bottom-navbar fixed bg-gradient-to-l py-3 from-sky-700 to-blue-900 shadow-2xl ">
+  <div class="bottom-navbar pied fixed bg-gradient-to-l py-3 from-sky-700 to-blue-900 shadow-2xl ">
     <a href="#" class="text-xl hover:bg-cyan-500 "><i class="fas fa-home"></i></a>
     <a href="#" class="text-xl hover:bg-cyan-500"><i class="fas fa-cogs"></i></a>
     <a href="#" class="text-xl hover:bg-cyan-500"><i class="fas fa-info-circle"></i></a>
